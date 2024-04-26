@@ -1,19 +1,47 @@
-
-
-h1 {
-  font-size: 40px;
-  font-family: Arial
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  font-family: Arial;
 }
-h2 {
-  font-size: 25px;
-  font-family: Arial
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial;
 }
-h3 {
-  font-family: Arial
+th {
+  background-color: #4CAF50;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
-p {
+/* Table row hover effect */
+tr:hover {
+  background-color: #f9f9f9;
+}
+/* Odd row background */
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+/* Button styles */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   font-size: 14px;
-  font-family: Arial
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
-
-
+.button:hover {
+  background-color: #45a049;
+}
